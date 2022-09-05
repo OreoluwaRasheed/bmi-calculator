@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="left-side">
+        <div class="user"></div>
+        <div class="text">TOP UNIVERSE BMI CALCULATOR</div>
+      </div>
+      <div class="right-side">
+        <div class="right-box">
+          <form onsubmit="return calculateBMI();">
+            <div class="form-group">
+              <label for="height-feet">Height (Feet)</label>
+              <input id="height-feet" type="number" />
+            </div>
+            <div class="form-group">
+              <label for="height-inches">Height (Inches)</label>
+              <input id="height-inches" type="number" />
+            </div>
+            <div class="form-group">
+              <label for="weight-kg">Weight (Kg.)</label>
+              <input id="weight-kg" type="number" />
+            </div>
+            <div class="form-group">
+              <label for="gender">Gender</label>
+              <input id="gender" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="age">Age</label>
+              <input id="age" type="number" />
+            </div>
+            <div id="result">BMI RESULT</div>
+            <button>CALCULATE BMI</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
