@@ -1,0 +1,7 @@
+Nice job.  your code is functional but you have to disable immediate reload
+Ensure you maintain proper folder structures always.
+Add proper comments to your js code. This would server as proper documentation to other developers.
+
+UI is properly implemented.
+
+Well done.
